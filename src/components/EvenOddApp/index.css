@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(pink, skyblue);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.count-status {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: gray;
+}
+
+.button {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border-width: 0px;
+  border-radius: 5px;
+}
